@@ -17,7 +17,7 @@ class App extends Component{
         this.onSubmit=this.onSubmit.bind(this)
     }
     
-    changeFullName(event){
+    changeFullNam(event){
         this.setState({
             fullName:event.target.value
        })
